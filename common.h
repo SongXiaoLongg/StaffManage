@@ -70,6 +70,11 @@ typedef struct {
 }MSG;
 
 
+typedef struct node{                                                                  
+	char **re;
+	int row;
+	int colum;
+}revalue;
 /*定义线程处理的结构体信息*/
 typedef struct thread_data{
 	int acceptfd;
